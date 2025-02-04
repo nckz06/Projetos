@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com HTML</title>
+</head>
+<body style="padding: 30px 120px 50px; font-family: Arial, Helvetica, sans-serif; font-size: 25px; text-align: justify;">
+   <!-- OBSERVAÇÕES:
+      =>  A tag <font> não é mais utilizada no HTML 5.
+   -->
+
+   <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+   <hr>
+
+   <!-- Índice -->
+   <h2 id="indice">Índice</h2>
+   <ul>
+      <li>
+         <a href="#historia-computadores">História dos computadores</a>
+         <ul>
+            <li><a href="#primeira-geracao">Primeira Geração</a></li>
+            <li><a href="#segunda-geracao">Segunda Geração</a></li>
+            <li><a href="#terceira-geracao">Terceira Geração</a></li>
+            <li><a href="#quarta-geracao">Quarta Geração</a></li>
+            <li><a href="#quinta-geracao">Quinta Geração</a></li>
+         </ul>
+      </li>
+      <li>
+         <a href="#internet">Como a Internet surgiu?</a>
+         <ul>
+            <li><a href="#grande-nomes">Grande nomes envolvidos</a></li>
+         </ul>
+      </li>
+      <li>
+         <a href="#clients">O que são <i>Clients</i>?</a>
+         <ul>
+            <li><a href="#navegadores">Sobre os navegadores</a></li>
+            <li><a href="#aplicacoes">Aplicações Web</a></li>
+         </ul>
+      </li>
+      <li>
+         <a href="#servers">O que são <i>Servers</i>?</a>
+         <ul>
+            <li><a href="#componentes-servidor">Componentes de um Servidor</a></li>
+         </ul>
+      </li>
+      <li>
+         <a href="#linguagem-programacao">O que é Linguagem de Programação?</a>
+         <ul>
+            <li><a href="#ranking-linguagens">Ranking das Linguagens de Programação</a></li>
+            <li><a href="#linguagens-client">Linguagens <i>Client-Side</i></a></li>
+            <li><a href="#linguagens-server">Linguagens <i>Server-Side</i></a></li>
+            <li><a href="#html-programacao">HTML é uma linguagem de programação?</a></li>
+         </ul>
+      </li>
+      <li>
+         <a href="#estrutura-basica">Como é uma estrutura básica de um HTML?</a>
+         <ul>
+            <li><a href="#ferramentas-utilizadas">Ferramentas Utilizadas</a></li>
+            <li><a href="#estrutura-basica">Estrutura Básica</a></li>
+            <li><a href="#sobre-tags">Sobre as <i>TAGS</i></a></li>
+            <li><a href="#atributos-tag">Atributos das <i>TAGS</i></a></li>
+            <li><a href="#tipografia">Texto no HTML</a></li>
+            <li><a href="#lista-html">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#hyperlinks"><i>Hyperlinks</i></a></li>
+         </ul>
+      </li>
+      <li><a href="#referencias">Links de referências</a></li>
+   </ul>
+
+   <hr>
+   <!-- História dos Computadores -->
+   <h2 id="historia-computadores">História dos computadores</h2>
+   <small><a href="#inicio"><= Voltar</a></small>
+   <p>O computador passou por diversas transformações ao longo do tempo, acompanhando o avanço das áreas da matemática, engenharia e eletrônica. O que torna díficil apontar somente um inventor, mas podemos dizer que existem diversos colaboradores para o desenvolvimento e aperfeiçoamento dos computadores.</p>
+   
+   <h3 id="primeira-geracao">Primeira Geração de Computadores</h3>
+   <p>Os computadores de primeira geração funcionavam por meio de circuitos e válvulas eletrônicas. Possuíam o uso restrito, além de serem imensos e consumirem muita energia. Durante este período, foram projetados alguns computadores que marcaram a geração, como, por exemplo: <u><i>Harvard Mark I</i>, <i>Colossus</i> e <i>ENIAC</i></u>.</p>
+
+   <h4>Harvard Mark I (1937)</h4>
+   <img src="https://images.computerhistory.org/revonline/images/500004294-03-01.jpg?w=600" alt="Imagem ilustrativa do Harvard Mark I" title="Harvard Mark I">
+   <p>O <strong>Mark I</strong> foi projetado em 1937 pelo estudante de pós-graduação de Harvard, <strong>Howard H. Aiken</strong> para resolver <u>problemas avançados de física matemática encontrados em sua pesquisa</u>. A proposta ambicioda de Aiken previa o uso de tecnologias modificadas e disponíveis comercialmente, coordenadas por um sistema de controle centralizado.</p>
+   <p>Quando o <strong>Mark I</strong> foi finalizado e entregue a Harvard, em 1944, ele era operado pelo <i>US Navy Bureau of Ships</i> para fins militares, resolvendo problemas matemáticos que, até então, exigiam grandes equipes de humanos. O computador ficou em operação entre os anos <u>1944</u> e <u>1959</u>.</p>
+
+   <h4>Colossus (1944)</h4>
+   <img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/aab6/live/cc673c70-b60a-11ee-beb5-e1400df560f2.jpg.webp" alt="Imagem ilustrativa do Colossus" title="Colossus">
+   <p>O <strong>Colossus</strong> tratava-se de uma máquina computacional eletrônica criada durante o período da <u>Segunda Guerra Mundial (1939 - 1945)</u>, que tinha o objetivo de <u>ajudar os cientistas britânicos a decodificar o sistema de codificação de Lorenz, usado pelo exército nazista.</u></p>
+   <p>Foi construído pelo engenheiro Tommy Flowers, membro da equipe de cientistas da secreta instalação militar onde funcionava a <strong><i>Government Code and Cypher School</i> - GC&CS</strong> (Escola de Código e Cifra do Governo).</p>
+   <p>Seu último modelo foi colocado em operação no dia 1 de junho de 1944. Era <u>utilizado 2400 válvulas eletrônicas em sua construção e um mecanismo de leitura óptica para entrada de dados</u>, que era uma inovação na época.</p>
+   <p>Durante a Segunda Guerra Mundial, no total 10 computadores foram colocados em operação, mas apenas duas unidades foram preservadas, sendo que uma delas se encontra no <strong>Museu Nacional de Computação em Bletchley Park.</strong></p>
+
+   <h4>ENIAC (1946)</h4>
+   <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/26776_1798DEE935286D54.jpg?w=1024" alt="Imagem ilustrativa do ENIAC" title="ENIAC" width="600px">
+   <p>Também conhecido como <strong><i>Electronic Numerical Integrator And Computer</i></strong> (Computador e Integrador Numérico Eletrônico), o <strong>ENIAC</strong> pesava aproximadamente 30 toneladas e ocupava uma área de cerca de 180m<sup>2</sup>. Ele foi apresentado para o público no dia <u>14 de fevereiro de 1946</u> pelos pesquisadores norte-americanos John Eckert e John Mauchly. A máquina contava com um hardware equipado com <u>700 mil resistores</u> e <u>18 mil válvulas de vácuo</u> que em funcionamento consumiam vorazmente <strong><u>200 mil watts de energia</u></strong>.</p>
+   <p>Sua construção se iniciou em plena <u>Segunda Guerra Mundial (1939 - 1945)</u>. Apesar de apresentado ao público em 1946, sua primeira operação ocorreu em <u>julho de 1947</u>.</p>
+   <p>Depois de uma década de operação, o <strong>ENIAC</strong> foi subtituido por um rival com o <u>dobro da capacidade</u>, custava o equivalente a US$ 200 mil e tinha apenas <u>10% do seu tamanho</u>.</p>
+
+   <h3 id="segunda-geracao">Segunda Geração de Computadores</h3>
+   <p>A <strong>Segunda Geração</strong> se inicia no ano de <u>1959</u> e se estende até <u>1965</u>. Neste período, os computadores ainda tinha dimensões muito grandes, eles passaram a funcionar por meio de transistores, os quais substituíram as válvulas que eram maiores e mais lentas. Foi neste período que os <strong><u>primeiros computadores comerciais foram desenvolvidos</u></strong>.</p>
+   <img src="https://s2-techtudo.glbimg.com/JN6fjIbg37BYBEpaniKOpWtMCj0=/0x0:354x475/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/3/j/lrbgB5R46BSTTKF8XrbA/2012-07-12-gpc20120711-2-divtransistores.jpg" alt="" title="Transistores" width="200px">
+   <img src="https://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/2161387.jpg?428" alt="" title="IBM 7094">
+
+   <h3 id="terceira-geracao">Terceira Geração de Computadores</h3>
+   <p>A <strong>Terceira Geração</strong> inicia-se no ano de <u>1965</u> e vai até o ano de <u>1975</u>. Neste período, os computadores funcionavam através de circuitos integrados, que substituíram os transistores e já apresentaram uma dimensão menor e uma maior capacidade de processamento. Foi neste período que os <u>chips</u> foram criados - com eles, <u>os dados de entrada e saída eram gerenciados por dispositivos periféricos</u> como monitor, teclado ou impressora - e a utilização de computadores pessoais começou a ficar mais popular.</p>
+   <img src="https://static.todamateria.com.br/upload/te/rc/terceirageracao.jpg" alt="Imagem ilustrativa de um computador da terceira geração">
+   <img src="https://histricoeevolucaodoscomputadores.wordpress.com/wp-content/uploads/2016/09/3-1.jpg?w=640" alt="Imagem ilustrativa de chip de computador">
+
+   <h3 id="quarta-geracao">Quarta Geração de Computadores</h3>
+   <p>A <strong>Quarta Geração</strong> começa no ano de <u>1975</u> e, alguns acreditam que, estende-se até os dias atuais. Durante este período, os computadores diminuiram ainda mais de tamanho, aumentaram sua velociadade e capacidade de processamento de dados. Foram incluídos os <u>microprocessadores</u> com gasto cada vez menor de energia e capaz de gerenciar todas as funções de um computador - também conhecidas como <strong><abbr title="Unidade Central de Processamento">CPU</abbr></strong>.</p>
+   <p>Um exemplo de computadores de quarta geração seria o <i><strong>Apple Macintosh</strong></i>, desenvolvido por <strong>Steve Jobs</strong>.</p>
+   <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/01/macintosh.jpg?w=1024" alt="Imagem ilustrativa do Macintosh" title="Macintosh" width="400px">
+   <p>Além disso, surgem os <i>softwares</i> integrados, começando a surgir os "<u>computadores de mão</u>", ou seja, os smartphones, iPod, iPad, tablets, entre outros dispositivos móveis; que incluem conexão móvel com navegador web.</p>
+   <img src="https://s2-techtudo.glbimg.com/8EcF6tgp7WuNfYL3oW83VVvOqNg=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/U/F/bVmBq7T7CqtuZ7gNLYfA/2015-06-29-stevejobsiphone2g.jpg" alt="Imagem ilustrativa do lançamento do primeiro iphone" title="Steve Jobs apresentando o primeiro iPhone" width="400px">
+   <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/10/ipod-2-geracao.jpg?w=412" alt="Imagem ilustrativa do iPod" title="iPod" width="300px">
+
+   <h3 id="quinta-geracao">Quinta Geração?</h3>
+   <p>Alguns estudiosos preferem acrescentar a "<strong>Quinta Geração de Computadores</strong>" que vem sendo marcada pelo surgimento e aperfeiçoamento da <u>inteligência artificial</u>, <u>computação quântica</u>, <u>nanotecnologia</u> e por sua ampla conectividade. A <i><abbr title="Inteligência Artificial">I.A</abbr></i> permite aos computadores reconhecer e aprender a linguagem humana de forma autônoma, sem a intervenção do usuário.</p>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT28ffmdl5EM4_CsdpZKkz9O-qEVbDhzjS6lQ&s">
+   <p>A incorporação da <u>tecnologia quântica</u> permitiria aos computadores trabalhar com enormes quantidades de dados que ainda "não são possíveis" de processar. Já a <u>nanotecnologia</u> favorece a criação de componentes cada vez menores com maiores capacidades de processamento e armazenamento.</p>
+   <img src="https://s2.glbimg.com/gNdXyFC4RlfFIL1v3DXhzVx3h2I=/e.glbimg.com/og/ed/f/original/2021/12/01/50252942522_d51f6e6c0b_k.jpg" alt="" width="400px">
+   <p>Porém, o conceito de "<strong>Quinta Geração de Computadores</strong>" ainda não foi aceitado por todos, pois ainda não há um consenso sobre o que caracteriza o fim da quarta geração e início dessa geração.</p>
+   <!-- 
+      Links para montar este tópico:
+      História e Evolução dos Computadores   =>  https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/
+      Harvard IBM Mark I - About the Mark I  =>  https://chsi.harvard.edu/harvard-ibm-mark-1-about
+      O Computador Colosus =>  https://museucapixaba.com.br/hoje/computador-colossus-mark-i-de-1943/
+      História do ENIAC, o primeiro computador eletrônico   =>  https://tecnoblog.net/especiais/eniac-primeiro-computador-do-mundo-completa-65-anos/
+      Quinta Geração de Computadores   => https://www.diferenca.com/evolucao-dos-computadores/
+
+      Curiosidades:
+      https://www.bbc.com/portuguese/articles/c51z15vg6epo
+      https://www.tecmundo.com.br/historia/40576-colossus-heroi-de-guerra-e-um-dos-primeiros-computadores-do-mundo.htm
+      https://lorenz.virtualcolossus.co.uk/LorenzSZ/
+   -->
+   <br><br>
+   
+   <hr>
+   <!-- Internet -->
+   <h2 id="internet">Como a Internet surgiu?</h2>
+   <small><a href="#inicio"><= Voltar</a></small>
+   <p>Há algumas décadas atrás, os principais meios de comunicação eram <u>telegráfo</u> e <u>telefone</u>, mas os computadores, desenvolvidos para realizarem cálculos e armazenar informações, tinham fins exclusivamente científicos e governamentais, ou seja, o público não tinha acesso aos computadores da época.</p>
+   <p>Em 1957, os Estados Unidos e a União Soviética protagonizaram a <strong>Guerra Fria</strong>, um embate em termos ideológicos, econômicos, políticos, militares e tecnológicos.</p>
+   <p>Devido ao conflito, os <strong>Estados Unidos</strong> estavam tentando encontrar uma maneira de <u>proteger suas informações e comunicações</u> no caso de um ataque nuclear soviético. As inovações que tentaram resolver esse problema levaram ao surgimento da <u><strong>Internet</strong></u>.</p>
+   <p>Durante o período da <strong>Guerra Fria</strong>, os <abbr title="Estados Unidos da Amárica">EUA</abbr> criaram a <strong>DARPA</strong> (<i>Defense Advanced Research Projects Agency</i>, ou Agência de Projetos de Pesquisa Avançada de Defesa, em português), que foi responsável pela pesquisa e desenvolvimento de novas tecnologias para fins defensivos e militares, entre elas, a rede de computadores.</p>
+   <img src="https://th.bing.com/th/id/R.4f387688841d5df83053c4ba6639bc4e?rik=khS6CBjyn4fvzA&pid=ImgRaw&r=0" alt="imagem da logo da DARPA" width="400">
+   <p>Em 1961, <strong>Leonard Kleinrock</strong> apresentou sua teoria de comutação de pacotes, alegando que dois servidores poderiam se comunicar para enviar e receber informações transportadas por pacotes por meio de uma rede de computadores. Esses pacotes poderiam seguir caminhos diferentes e ser refeitos na chegada, tornando a comunicação mais eficiente.</p>
+   <p>Porém, no ano de 1966, com a entrada do Roberts na DARPA, ele desenvolveu o plano da <strong>ARPANET</strong> para <u>desenvolver a primeira rede de comutação de pacotes</u> junto a <strong>Robert Kahn</strong> e <strong>Howard Frank</strong>.</p>
+   <img src="https://tse3.mm.bing.net/th/id/OIP.Id5bg2GHcgTmAuURzDUjPQHaGX?rs=1&pid=ImgDetMain" alt="imagem da logo da ARPANET">
+   <p>Embora o primeiro protótipo de uma rede computada por pacotes descentralizada já tivesse sido projetada, ganhou visibilidade somente em 1969, quando <u>um computador da Universidade da Califórnia (UCLA) se conectou com sucesso a outro computador do Stanford Research Institute (SRI)</u>. Porém, a primeira conexão também foi o primeiro erro de transmissão de dados, pois a mensagem recebida foi <i><strong>"LO"</strong></i> e não <i><strong>"LOGIN"</strong></i>.</p>
+   <p>Em 1974, <u><strong>Robert Kahn</strong></u> e <u><strong>Vinton Cerf</strong></u> desenvolveram uma nova versão do protocolo que respondia a um ambiente de rede de arquitetura aberta. Esse novo protocolo foi chamado de <strong><i>TCP/IP</i></strong>.</p>
+   <img src="https://tse3.mm.bing.net/th/id/OIP.fanYfEpzNT3w_WcMDY1sVgHaHa?rs=1&pid=ImgDetMain" alt="imagem representativa da TCP/IP" width="350">
+   <p>O protocolo TCP/IP facilitava a comunicação entre redes sem a necessidade de que estas fizessem alterações em sua interface. Além de garantir que nenhum pacote de informações fosse perdido e que esses pacotes chegassem na ordem em que haviam sido enviados. Esse protocolo logo foi adotado pela ARPANET.</p>
+   <p>Porém, o avanço não parou aí. Em 1989, <strong>Tim Berners-Lee</strong> desenvolveu a <strong>World Wide Web</strong>, que funciona como um sistema de distribuição de documentos de hipertexto (<abbr title="HyperText Transfer Protocol">HTTP</abbr>) interconectados e acessíveis por meio de um navegador web conectado à internet.</p>
+   <img src="https://th.bing.com/th/id/R.182b3a07b9615411c295ea6b7e1bd0ac?rik=2UXjKOgLjrOFAw&pid=ImgRaw&r=0" alt="imagem da logo da WWW" width="350">
+   
+   <h3 id="grande-nomes">Grandes nome envolvidos</h3>
+   <ul>
+      <li><strong>Grace Murray Hopper:</strong> foi uma das primeiras programadoras do <u>Mark I</u> em 1944. Conhecida também por criar a linguagem de programação de alto nível Flow-Matic, que serviu de base para <u>COBOL</u>, além de associar o termo <i>"<u>bug</u>"</i> na computação, referindo-se ao mau funcionamento do computador.</li>
+      <img src="https://tse3.mm.bing.net/th/id/OIP.ngG41RADKyXy0t2jhVZqmAHaHa?rs=1&pid=ImgDetMain" alt="foto da Grace Hopper" width="250"><br><br>
+      <li><strong>Joseph Carl Robnett Licklider:</strong> foi recrutado pela <abbr title="Defense Advanced Research Projects Agency">DARPA</abbr> após teorizar sobre uma rede "galática" de computadores, plantando, assim, uma semente para a criação da <u>Internet</u>.</li>
+      <img src="https://tse4.mm.bing.net/th/id/OIP.GGCv-N9LDb8jXxwZntaSTAAAAA?rs=1&pid=ImgDetMain" alt="foto do Joseph Licklider" width="200"><br><br>
+      <li><strong>Robert Kahn:</strong> foi responsável por projetar a primeira rede de comunicação, conhecida como <strong>ARPANET</strong>, baseada em "comutação de pacotes". Também foi o responsável, juntamente com <u>Vinton Cerf</u>, pela criação do protocolo <u><i>TCP/IP</i></u>.</li>
+      <img src="https://tse1.mm.bing.net/th/id/OIP.-ZVnY7IIMSVYKxl6KagTdAAAAA?rs=1&pid=ImgDetMain" alt="foto do Robert Kahn" width="200"><br><br>
+      <li><strong>Tim Berners-Lee:</strong> ficou conhecido pela invenção da <strong><i>World Wide Web</i></strong> (<i>WWW</i>), invenção que popularizou a comunicação entre cliente e servidor - o <u><i>HTTP</i></u> - e a linguagem de marcação <u><i>HTML</i></u>.</li>
+      <img src="https://th.bing.com/th/id/R.f7c35101e331a206126df24cb92c47a9?rik=4NfpZv2aWNuo8g&pid=ImgRaw&r=0" alt="foto do Tim Berners-Lee" width="250"><br><br>
+      <li><strong>Marc Andreessen:</strong> foi o responsável pelo desenvolvimento da <strong>Netscape Naviagtor</strong>, que foi produzido com base no Mosaic. Ele tornou o navegador mais "amigável", com recursos gráficos, o que ajudou ele a se tornar o navegador mais popular da época.</li>
+      <img src="https://tse1.mm.bing.net/th/id/OIP.h00yN6cslpnR6c3iIdQGngHaJc?rs=1&pid=ImgDetMain" alt="foto do Marc Andreessen" width="250"><br><br>
+      <li><strong>Bill Gates:</strong> é o fundador da <u>Microsoft</u> e responsável pelo desenvolvimento do <u><i>Internet Explorer</i></u>, navegador que ele deixou acessível para todos os computadores, e, com isso, ajudou a popularizar a <u>Internet</u>.</li>
+      <img src="https://tse1.mm.bing.net/th/id/OIP.YiJ2YupHQR8oKlhQJIDVswHaHa?rs=1&pid=ImgDetMain" alt="foto do Bill Gates" width="250"><br><br>
+      <li><strong>Steve Jobs:</strong> foi o fundador da <u>Apple</u>, o principal concorrente da Microsoft. Ele foi responsável por popularizar o smartphone, lançando o primeiro <u><i>iPhone</i></u> em 2007.</li>
+      <img src="https://tse2.mm.bing.net/th/id/OIP.d7yv4e36iOt9IvrTWuC0wQHaJb?rs=1&pid=ImgDetMain" alt="foto do Steve Jobs" width="250">
+   </ul>
+   <br><br>
+   <!--
+      Links para montar este tópico:
+      Conheça a história da Internet   => https://rockcontent.com/br/blog/historia-da-internet/
+      Gracie Hopper  => https://www.womenshistory.org/education-resources/biographies/grace-hopper
+      Joseph Carl Robnett Licklider  => https://en.wikipedia.org/wiki/J._C._R._Licklider
+      Robert Kahn  => https://www.invent.org/inductees/robert-e-kahn
+      Berners-Lee => https://www.w3.org/People/Berners-Lee/
+      Marc Andreessen   => https://pt.wikipedia.org/wiki/Marc_Andreessen
+      Bill Gates  => https://www.infomoney.com.br/perfil/bill-gates/
+      Steve Jobs  => https://en.wikipedia.org/wiki/Steve_Jobs
+   -->
+
+   <hr>
+   <!-- O que são Clients? -->
+   <h2 id="clients">O que são <i>Clients</i>?</h2>
+   <small><a href="#inicio"><= Voltar</a></small>
+   <p>O modelo <strong>Cliente-Servidor</strong> é uma arquitetura de rede amplamente ulitizada na computação moderna. Nesse modelo, os dispositivos são divididos em duas categorias principais: o <u>cliente</u> e o <u>servidor</u>. O cliente é o dispositivo que solicita serviços ou recursos do servidor, enquanto o servidor é o dispositivo que fornece esses serviços ou recursos.</p>
+   <p>Funcionalidades como a troca de e-mail, acesso à internet ou acesso a um banco de dados, são construídos com base no modelo cliente-servidor. Por exemplo, um navegador web é um programa cliente que resigna às informações armazenadas num servidor web na internet. Esse programa, por sua vez, pode encaminhar o pedido para o seu próprio programa de banco de dados do cliente que envia uma solicitação para um servidor de banco de dados em outro computador do servidor para recuperar as informações do usuário, que retorna ao cliente, através do navegador, os resultados para o usuário.</p> 
+   <img src="img/cliente-servidor.png" alt="Imagem ilustrativa do modelo Client-Server" width="650">
+   <p>Essa informação recebida pelo cliente, é resultado do retorno de certos arquivos que estão no servidor, como, por exemplo, arquivos <u>HTML, CSS, Javascript, imagens</u>, entre outros arquivos que se encaixam na requisição do usuário. Mas isso depende muito da velocidade de conexão do cliente e do tamanho dos arquivos disponibilizados, ou seja, se a velocidade de conexão estiver fraca, o servição pode não responder da forma desejada ou não carregar os arquivos para o usuário.</p>
+   <p>Os navegadores disponibilizam um <u>cache</u>, que armazena os arquivos para a abertura da aplicação. Esse cache permite que o usuário acesse o recurso de forma mais rápida, funcionando como uma espécie de atalho, pois, como os arquivos estão presentes na máquina do usuário, a aplicação não precisa solicitar novamente os arquivos do recurso para gerar os resultados para o cliente. Mas ao recarregar a página, os arquivos são requisitados novamente e os caches antigos do usuário são deletados e substituídos pelos novos arquivos atualizados.</p>
+   <img src="img/retorno-informacoes.png" alt="imagem representativa do retorno de informação" width="700">
+   <p>Atualmente, os desenvolvedores têm que se preocupar com a responsividade de suas aplicações e com a compatibilidade com os navegadores, isso para conseguirem atender todos os tipos de clientes na rede, pois existem diferentes tipos de telas e locais onde se pode acessar as aplicações/site.</p>
+
+   <h3 id="navegadores">Sobre os Navegadores</h3>
+   <p>Os navegadores, também conhecidos como <i>browsers</i>, são programas criados por empresas, utilizados para abrir/executar arquivos, como arquivos <u>HTML, CSS e Javascript</u>, para gerar página para o usuário. Esses navegadores, embora tenham suas exclusividades, eles seguem um padrão, que é estabelecido pela <abbr title="Wolrd Wide Web Consortium">W3C</abbr>. As permissões/compatibilidade dos navegadores podem ser visualizados no site: <a target="_blank" href="https://www.w3schools.com/tags/ref_html_browsersupport.asp">HTML Reference - Browser Support</a>.</p>
+   <img src="img/html-reference-support.png" alt="Imagem ilustrativa da página de permissões dos navegadores" width="800">
+
+   <h3 id="aplicacoes">Aplicações Web</h3>
+   <p>Uma <strong>Aplicação Web</strong> é um software que é executado em um navegador da Web, o que conecta a empresa, que precisa trocar informações e prestar serviços remotamente, com os clientes de forma conveniente e segura. Eles permitem que usuário acesse as funcionalidades mais complexas sem precisar instalar ou configurar nenhum software externo. Ou seja, <u>são programas que abrem/executam arquivos, como HTML, CSS e Javascript, para retornar os recursos requisitados pelo usuário</u> somente com auxílio do navegador.</p>
+   <p>No entanto, existem também as <strong>aplicações nativas</strong>, que são programas de computador projetados especificamente para um determinado "ambiente" de usuário, ou seja, aplicações que são disponibilizadas em diferentes dispositivos, permitindo que o usuário baixe-o no dispositivo que o deixa mais confortável. Um grande exemplo, são as aplicações móveis, as quais são desenvolvidas usando um código de programação específico e, na maioria das vezes, diferente das utilizadas pelas aplicações web.</p>
+   <!--
+      links para montar este tópico:
+      Modelo Cliente-Servidor => https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada#:~:text=Cliente%3A%20Em%20uma%20infraestrutura%20cliente,recurso%20e%20aguarda%20a%20resposta.
+      O que é um navegador?   => https://www.mozilla.org/pt-BR/firefox/browsers/what-is-a-browser/
+      O que é Cliente-Servidor?  => https://www.youtube.com/watch?v=Xmu-EpxcROM
+      Compatibilidade dos navegadores  => https://www.w3schools.com/tags/ref_html_browsersupport.asp
+      O que é Aplicação Web?  => https://aws.amazon.com/pt/what-is/web-application/
+      Diferença entre Aplicação Web e Aplicativo   => https://aws.amazon.com/pt/what-is/web-application/
+
+   -->
+   <br><br>
+
+   <hr>
+   <!-- O que são Servers? -->
+   <h2 id="servers">O que são <i>Servers</i>?</h2>
+   <small><a href="#inicio"><= Voltar</a></small>
+   <p>Os <strong>Servidores</strong> desempenham um papel fundamental, atuando como um dos pilares da internet e da tecnologia. Um servidor é um equipamento ou um software, que demanda bastante potêncial, pois, geralmente, lida com diversos usuários ao mesmo tempo, fazendo dele um componente essencial das redes online, permitindo a comunicação, transação e o acesso a informações em uma escala global.</p>
+   <p>A função principal de um servidor é <u>armazenar, processar e entregar páginas da web a usuários</u>, além de gerenciar e-mails, hospedar banco de dados, entre outras tarefas. Eles permitem que múltiplos usuário compartilhem recursos de forma eficiente, reduzindocustos e aumentando a capacidade de processamento disponível para tarefas complexas.</p>
+   <img src="https://tse3.mm.bing.net/th/id/OIP.3_PwqeyguyTld5ZZkctdtAHaEK?rs=1&pid=ImgDetMain" alt="Imagem de um DataCenter">
+   <p>O servidor necessita de acesso à internet para realizar a conexão entre ele e o cliente, porém, não é obrigatório, pois existe a possibilidade de conectar-se com o cliente através de uma <u>rede local (<i><abbr title="Local Area Network">LAN</abbr></i>)</u> utilizando um computador desenvolvido para realizar funções de servidor. Eles podem possuir funções especifícas, podendo ser apenas para armazenar arquivos, para gerenciar a segurança dos clientes, servidores para e-mail, somente para web, entre outras funcionalidades.</p>
+   <p>Quando um usuário acessa, por exemplo, um website, ele envia para o servidor uma solicitação, que é recebida através de sua conexão de rede. O sistema operacional do servidor determina qual software de aplicação deve lidar com a solicitação. Ao processar a solicitação, no caso do website, o servidor busca a página web em seu armazenamento e envia de volta ao dispositivo do usuário através da internet.</p>
+   <img src="img/requisicao.png" alt="imagem representativa da requisição feita pelo usuário" width="600">
+   
+   <h3 id="componentes-servidor">Componentes de um Servidor</h3>
+   <p>Um servidor consiste em hardwares potentes e robustos e softwares especializados, onde cada um desempenha um papel vital na operação geral do sistema.</p>
+
+   <h4><i>Hardware</i></h4>
+   <p>Estes componentes são projetados para ser significativamente mais potente e confiável do que o de um computador pessoal comum. Isso inclui:</p>
+   <ul>
+      <li><u>Processadores de alta performance</u>: essencial para o processamento rápido de múltiplas solicitações simultâneas.</li>
+      <li><u>Memória RAM extensa</u>: permite ao servidor armazenar temporariamente os dados necessários para operações rápidas e eficientes.</li>
+      <li><u>Sistemas armazenamento de alta capacidade</u>: frequentemente utilizam arranjos de discos rígidos ou unidades de estado sólido para armazenar grandes quantidades de dados.</li>
+      <li><u>Sistemas de alimentação redundantes</u>: para garantir que o servidor permaneça operacional mesmo em caso de falha de energia.</li>
+      <li><u>Conexões de rede de alta velocidade</u>: cruciais para a transferência rápida de dados para e de outros dispositivos na rede.</li>
+   </ul>
+
+   <h4><i>Software</i></h4>
+   <p>O <u><i>software</i></u> de um servidor varia de acordo com o tipo e a função específicados do servidor, mas geralmente inclui:</p>
+   <ul>
+      <li><u>Sistema operacional de servidor</u>: como Windows Server, Linux, ou UNIX, otimizado para gerenciar recursos de hardware e executar aplicações de servidor.</li>
+      <img src="img/software-servidor.png" alt="imagem de alguns softwares" width="600">
+      <li><u>Software de aplicação de servidor</u>: específico para a função do servidor, como Nginx para servidores werb, ou software de gerenciamento de banco de dados para servidores de banco de dados.</li>
+   </ul>
+   <!--
+      Links para montar este tópico:
+      O que é servidor? => https://querobolsa.com.br/revista/o-que-e-um-servidor
+   -->
+   <br><br>
+
+   <hr>
+   <!-- O que é Linguagem de programação? -->
+   <h2 id="linguagem-programacao">O que é Linguagem de Programação?</h2>
+   <small><a href="#inicio"><= Voltar</a></small>
+   <p>A <strong>Linguagem de Programação</strong>, diferente das linguagens naturais, foram criadas para interagir com uma máquina, representando uma sequência de instruções ou ordens que permitem a um computador resolver um problema ou desempenhar um função.</p>
+   <p>Sendo assim, a linguagem de programação é um sistema de comunicação estruturado, composto por símbolos, palavras-chave e regras de semânticas e sintáticas. </p>
+   <p>A linguagem permite que um programador especifique precisamente quais os dados que o computador irá atuar, como estes dados serão armazenados ou transmitidos, e quais ações devem ser tomadas de acordo com as circunstâncias.</p>
+
+   <h3 id="ranking-linguagens">Ranking das Linguagens de Programação</h3>
+   <p>Segundo o site da RedMonk, as linguagens de programação mais utilizadas são:</p>
+   <table>
+      <tr>
+         <td>
+            <img src="img/ranking-linguagens.png" alt="Imagem ilustrativa do ranking das linguagens de programação mais usadas no mundo" width="400">
+         </td>
+         <td>
+            <ol>
+               <li>Javascript</li>
+               <li>Python</li>
+               <li>Java</li>
+               <li>PHP</li>
+               <li>C#</li>
+            </ol>
+         </td>
+      </tr>
+   </table>
+
+   <h3 id="linguagens-client">Linguagens <i>Client-Side</i></h3>
+   <p>É um pequeno programa que é incorporado em uma página da web. Este programa é baixado do lado do cliente a partir do servidor, junto com a página da web HTML na qual foi incorporado. O navegador interpreta e executa o código e, em seguida, exibe o resultado na tela do usuário.</p>
+   <p>Entre as linguagens <i>client-side</i>, há o Javascript, que, através dele, é possível manipular a página do usuário diretamente, fazendo coisas dinâmicas que vão desde mudar o valor de um campo do formulário até criar uma área redimensionável que pode ser arrastada pela página, entre outras funcionadades para deixar a página mais dinâmica.</p>
+
+   <h3 id="linguagens-server">Linguagens <i>Server-Side</i></h3>
+   <p>É a linguagem que rodará "por trás dos panos", fornecendo a lógica principal da aplicação. Funciona da seguinte maneira: sempre que o usuário faz <i>HTTP Request</i>, o pedido é enviado para o servidor. A <strong>linguagem <i>server-side</i></strong> recebe o requerimento e faz o processamento. Depois, transforma o resultado e envia para o navegador. É com ela que é possível verificar se o usuário está logado, buscará informações no banco de dados, entre outras funcionalidades que não são percebidas diretamente pelo usuário.</p>
+   <img src="img/javascript-lados.png" alt="imagem ilustrativa do lado do cliente e do servidor">
+   <br>
+   <small>O Javascript pode fazer parte de ambos processos, tanto do <i>client-side</i> quanto do <i>server-side</i>.</small>
+
+   <h3 id="html-programacao">HTML é uma linguagem de programação?</h3>
+   <img src="https://th.bing.com/th/id/R.32b6fc12260c96f711150637f382841f?rik=Kpqh3wwHrBlvYQ&pid=ImgRaw&r=0" alt="Imagem ilustrativa de HTML" width="100">
+   <p>A web é construída em torno de várias linguagens e tecnologias. Entre elas, uma das mais conhecidas está o <u>HTML</u> (sigla para <strong>HyperText Markup Language</strong>), que é frequentemente utilizada para criar páginas web. Ao contrário das linguagens de programação, que são usadas para criar algoritmos e executar ações lógicas, o HTML é utilizado para marcar o conteúdo de uma página web, fornecendo estrutura e semântica ao conteúdo, permitindo que os navegadores exibam a página de forma correta.</p>
+   <p>Além disso, as linguagens de programação podem gerar estruturas de controle, como loops e condicionais, para tomar decisões e repetir ações, e pode ser utilizado variáveis para armazenar e manipular dados. Recursos que estão ausentes no HTML.</p>
+   <p>Exemplo de HTML:</p>
+   <blockquote>
+      <p>&#60;p&#62; Eu curto demais &#60;strong&#62; programar &#60;/strong&#62;! &#60;/p&#62;</p>
+      <p><strong>Resultado:</strong></p>
+      <p>Eu curto demais <strong>programar</strong>!</p>
+   </blockquote>
+   <!--
+      Links para montar este tópico:
+      O que é Linguagem de Programação?    =>   https://www.alura.com.br/artigos/linguagem-programacao?srsltid=AfmBOoqt5tjQKczA9FEWpyRP908HHuyerU4McFyeshSD7_rgWrrGNa7M
+      HTML não é uma linguagem de programação   => https://www.dio.me/articles/por-que-o-html-nao-e-considerado-uma-linguagem-de-programacao
+      Linguagens Client-side  => https://www.scientecheasy.com/2021/12/client-side-scripting.html/#google_vignette
+
+      Ranking das linguagens  => https://redmonk.com/sogrady/2023/05/16/language-rankings-1-23/
+   -->
+   <br><br>
+
+   <hr>
+   <!-- Estrutura Básica de um HTML -->
+   <h2 id="estrutura-basica">Como é uma estrutura básica de um HTML?</h2>
+   <small><a href="#inicio"><= Voltar</a></small>
+
+   <h3 id="ferramentas-utilizadas">Ferramentas Utilizadas</h3>
+   <p>Antes de começar a construir sua primeira página web utilizando HTML, precisa prepara o ambiente. Para isso, recomendo a utilização do <a target="_blank" href="https://code.visualstudio.com/Download">Visual Studio Code</a>, pois, além de apresentar diversas ferramentas para auxiliar no desenvolvimento da página, e de outras linguagens, ele é uma ferramenta gratuita, de código aberto e pode ser utilizada em qualquer sistema operacional. Porém, pode ser utilizado qualquer editor de texto simples para poder desenvolver uma página web.</p>
+   <img src="https://th.bing.com/th/id/R.f97b3354eee8da2d208eb4e3a56a6628?rik=CqZ5H3DJTr%2fVGA&pid=ImgRaw&r=0" alt="imagem do Visual Studio Code" width="750">
+   <p>Ao terminar de instalar o Visual Studio Code, você deve ir para a aba de extensões e baixar a extensão <i>Live Server</i>, que permitirá abrir a sua página em um servidor local para ver as modificações do site em tempo real e poder testar a página sem precisar abrir ou hospedar no navegador.</p>
+   <img src="https://tse4.mm.bing.net/th?id=OIP.wIU7IBZFdUKxmAcejUmabwHaHa&rs=1&pid=ImgDetMain" alt="imagem da logo do Live Server" width="250"><br>
+   <small><mark><a target="_blank" href="https://www.youtube.com/watch?v=pkH6XxH57O8">Visual Studio Code para iniciantes</a></mark>   -> Assista antes de começar a desenvolver a página</small>
+   <small><mark><a href="https://www.youtube.com/watch?v=5pZOCXJp0C8" target="_blank">Download da extensão <i>Live Server</i></a></mark></small>
+
+   <h3 id="estrutura-basica">Estrutura Básica</h3>
+   <p>Primeiramente, ao criar um arquivo, deve-se nomeá-lo de <i>index.html</i>, nome que é muito utilizado para representar a página principal do site. Este nome é utilizado pelos desenvolvedores de forma convencional, tornando-se um padrão nos dias de hoje.</p>
+   <p>o <abbr title="HyperText Markup Language">HTML</abbr> consiste em uma série de elementos, que são usados para estruturar a página web. Esses elementos, são denominados tags, e, para que elas funcionem, necessitam de uma tag de abertura e uma tag de fechamento. A tag de abertura, envolve um elemento em parênteses angulares < >, o que indica onde o elemento começa, ou melhor onde seu efeito se inicia.</p>
+   <p>Já a tag de fechamento, além de envolver o elemento em parênteses angulares < >, ele também possui uma barra / que é colocada antes do nome do elemento. Indicando onde o elemento acaba.</p>
+   <p>Para iniciar a estrutura do código HTML, utilizamos a tag <mark><strong>&#60;html&#62;</strong></mark>, indicando o início e o fim da sua página web. Tudo que precisa ser carregado para a formação da sua página, deve estar entre essas tag, e, por isso, é conhecido como elemento raiz.</p>
+   <img src="img/tag-html.png" alt="imagem representativa da tag html">
+   <p>Após abrir a tag &#60;html&#62;, o código divide-se em duas partes que separam a estrutura da página, com funcionalidades que se complementam. A primeira tag a ser posicionada é a <mark><strong>&#60;head&#62;</strong></mark>, que age como um recipiente de tudo o que deseja incluir na página web, mas que não deve aparecer para o usuário em questão. Para começar, vamos atribuir um título para a página utilizando a tag <mark><strong>&#60;title&#62;</strong></mark>, definindo, assim, o título da página, que será carregado na guia do navegador.</p>
+   <img src="img/tag-head-title.png" alt="imagem representativa da tag head e title" width="800"><br>
+   <img src="img/resultado-tag-head-title.png" alt="resultado das tags head e title na página" width="800">
+   <p>Outra tag importante para o desenvolvimento da sua página web, é a tag <mark><strong>&#60;body&#62;</strong></mark>. Dentro dela, contém o conteúdo que você deseja mostrar ao público que visitará sua página, podendo colocar imagens, <i>hyperlinks</i>, parágrafos de texto, etc. para deixá-la o mais completo possível.</p>
+   <img src="img/tag-body.png" alt="imagem representativa da tag body" width="800"><br>
+   <img src="img/resultado-tag-body.png" alt="resultado da tag body na página" width="800">
+
+   <h3 id="sobre-tags">Sobre as <i>TAGS</i></h3>
+   <p>Como mencionado anteriormente, as tags são elementos usados para estruturar a página web e elas possuem uma tag de abertura, o conteúdo e uma tag de fechamento. A <a target="_blank" href="https://www.w3schools.com/tags/" title="Clique aqui para acessar a página">W3School</a> desenvolveu uma página, onde apresentam todas as tags do HTML, para auxiliar/informar os desenvolvedores a encontrarem algo que mais se encaixa para a aplicação em seu site.</p>
+   <p>Cada tag atribui uma funcionalidade/comportamento diferente da outra. Por exemplo: 
+      <ul>
+          <li>A tag <mark><strong>&#60;i&#62;</strong></mark> deixa o texto em itálico;</li>
+          <img src="img/tag-i.png" alt="imagem representativa da tag i" title="" width="800"><br>
+          <img src="img/resultado-tag-i.png" alt="resultado da tag i na página" title="" width="800">
+          <br><br>
+          <li>A tag <mark><strong>&#60;input&#62;</strong></mark> define controles de entrada de dados que são fornecidos pelos usuários;</li>
+          <img src="img/tag-input.png" alt="imagem representativa da tag input" width="700"><br>
+          <img src="img/resultado-tag-input.png" alt="resultado da tag input na página" width="700">
+          <br><br>
+          <li>A tag <mark><strong>&#60;p&#62;</strong></mark> cria um parágrafo;</li>
+          <img src="img/tag-p.png" alt="imagem representativa da tag p" title="" width="700"><br>
+          <img src="img/resultado-tag-p.png" alt="resultado da tag p na página" title="" width="700">
+          <br><br>
+          <li>A tag <mark><strong>&#60;img&#62;</strong></mark> é usada para incluir imagens;</li>
+          <img src="img/tag-img.png" alt="imagem representativa da tag img" title="" width="700"><br>
+          <img src="img/resultado-tag-img.png" alt="resultado da tag img na página" title="" width="700">
+          <br><br>
+          <small>OBS.: Pode ser colocado um arquivo localmente ou link de referência da imagem.</small>
+          <li>entre outras tags.</li>
+      </ul>
+   </p> 
+   <small>Note que existem casos em que as tags não possuem um fechamento, como o &#60;input&#62; e &#60;img&#62;. Essas tags não precisam de conteúdo para serem utilizadas, somente de atributos para definirem seu "comportamento" ou sua estética.</small>
+
+   <h3 id="atributos-tag">Atributos das <i>TAGS</i></h3>
+   <p>Os atributos contém informação extra sobre o elemento e ela não fica explícita para o usuário no conteúdo real. Eles possuem atributos globais que podem ser atributos à todas as tags do HTML, como, por exemplo:
+      <ul>
+         <li><strong><i>id=""</i></strong> - atribui um identificador único para o elemento;</li>
+         <li><strong><i>class=""</i></strong> - atribui uma classe para o elemento, podendo atribuir caracteristicas/comportamentos para todas as tags que a possuirem;</li>
+         <li><strong><i>style=""</i></strong> - permite que o desenvolver atribuia caracteristicas de estética para o elemento, igual ao CSS;</li>
+      </ul>
+   </p>
+   <p>Mas existem também atributos exclusivos, que pertencem a uma tag e, geralmente, moldam o seu comportamento diante da página web. O &#60;input&#62;, por exemplo, possui o atributo <strong><i>type=""</i></strong> que define o tipo de informação que o usuário pode inputar no campo criado.</p>
+   <img src="img/tag-input-atributo-text.png" alt="imagem representativa da tap input com o atributo type='text'" width="800"><br>
+   <img src="img/resultado-tag-input-atributo-text.png" alt="resultado da tag input com o atributo type='text'" width="800"><br>
+   <small>Tag &#60;input&#62; com o atributo <i>type="text"</i></small>
+   <br><br><br>
+   <img src="img/tag-input-atributo-number.png" alt="imagem representativa da tag input com o atributo type='number'" width="800"><br>
+   <img src="img/resultado-tag-input-atributo-number.png" alt="resultado da tag input com o atributo type='number'" width="800"><br>
+   <small>Tag &#60;input&#62; com o atributo <i>type="number"</i></small>
+   <br><br><br>
+   <img src="img/tag-input-atributo-color.png" alt="imagem representativa da tag input com o atributo type='color'" width="800"><br>
+   <img src="img/resultado-tag-input-atributo-color.png" alt="resultado da tag input com o atributo type='color'"><br>
+   <small>Tag &#60;input&#62; com o atributo <i>type="color"</i></small>
+
+   <h3 id="tipografia">Texto no HTML</h3>
+   
+   <h4>Cabeçalho</h4>
+   <p>Os elementos de cabeçalhos permitem especificar que certas partes do seu conteúdo são títulos ou subtítulos, podendo atribuir até seis níveis de título (<mark><strong>&#60;h1&#62;</strong></mark> ao <mark><strong>&#60;h6&#62;</strong></mark>), embora, geralmente, só é utilizado até o quarto nível.</p>
+   <img src="img/tags-h.png" alt="imagem representativa das tags h" width="700"><br>
+   <img src="img/resultado-tags-h.png" alt="resultado das tags h na página" width="500">
+
+   <h4>Parágrafo</h4>
+   <p>Os elementos <mark><strong>&#60;p&#62;</strong></mark> são para criar e conter um parágrafo de texto, o que será utilizado com frequência durante a criação do site.</p>
+   <img src="img/tag-p-2.png" alt="imagem representativa da tag p" width="800"><br>
+   <img src="img/resultado-tag-p-2.png" alt="resultado da tag p na página" width="800">
+   <p>Existem também elementos de modificação de texto, como, por exemplo:</p>
+   <ul>
+      <li><strong>&#60;i&#62;</strong>: Define parte do texto em itálico;</li>
+      <img src="img/tag-i-2.png" alt="imagem representativa da tag i" width="800"><br>
+      <img src="img/resultado-tag-i-2.png" alt="resultado da tag i na página" width="800">
+      <br><br>
+      <li><strong>&#60;strong&#62;</strong> ou <strong>&#60;b&#62;</strong>: Define parte do texto em negrito;</li>
+      <img src="img/tag-strong.png" alt="imagem representativa da tag strong" width="800"><br>
+      <img src="img/resultado-tag-strong.png" alt="resultado da tag strong na página" width="800">
+      <br><br>
+      <li><strong>&#60;u&#62;</strong>: Define parte do texto em sublinhado;</li>
+      <img src="img/tag-u.png" alt="imagem representativa da tag u" width="800"><br>
+      <img src="img/resultado-tag-u.png" alt="resultado da tag u na página" width="800">
+      <br><br>
+      <li><strong>&#60;mark&#62;</strong>: Define parte do texto em marcação;</li>
+      <img src="img/tag-mark.png" alt="imagem representativa da tag mark" width="800"><br>
+      <img src="img/resultado-tag-mark.png" alt="resultado da tag mark na página" width="800">
+      <br><br>
+      <li><strong>&#60;sup&#62;</strong>: Define parte do texto como superíndice;</li>
+      <img src="img/tag-sup.png" alt="imagem representativa da tag sup" width="800"><br>
+      <img src="img/resultado-tag-sup.png" alt="resultado da tag sup na página" width="800">
+      <br><br>
+      <li><strong>&#60;small&#62;</strong>: Define parte do texto como pequeno;</li>
+      <img src="img/tag-small.png" alt="imagem representativa da tag small" width="800"><br>
+      <img src="img/resultado-tag-small.png" alt="resultado da tag small na página" width="800">
+      <br><br>
+      <li><strong>&#60;blockquote&#62;</strong>: Define parte do texto como uma citação;</li>
+      <img src="img/tag-blockquote.png" alt="imagem representativa da tag blockquote" width="800"><br>
+      <img src="img/resultado-tag-blockquote.png" alt="resultado da tag blockquote na página" width="800">
+   </ul>
+
+   <h3 id="lista-html">Listas Ordenadas e Não Ordenadas</h3>
+   <p>O HTML apresenta duas formas de criar listas: ordenadas e não ordenadas. A <strong>Lista Ordenada</strong> é para listas onde a ordem dos itens importa, como, por exemplo, uma página/livro receitas. Esses elementos são envolvidos pela tag <mark><strong>&#60;ol&#62;</strong></mark> e os itens são gerados através da tag <mark><strong>&#60;li&#62;</strong></mark>.</p>
+   <img src="img/tag-ol.png" alt="imagem representativa da tag ol" width="650"><br>
+   <img src="img/resultado-tag-ol.png" alt="resultado da tag ol na página" width="650">
+   <p>A <strong>Lista Não Ordenada</strong> é para listas onde a ordem dos itens não importa, como, por exemplo, uma lista de compras. Esses elementos são envolvidos pela tag <mark><strong>&#60;ul&#62;</strong></mark>.</p>
+   <img src="img/tag-ul.png" alt="imagem representativa da tag ul" width="650"><br>
+   <img src="img/resultado-tag-ul.png" alt="resultado da tag ul na página" width="650">
+
+   <h3 id="hyperlinks"><i>Hyperlinks</i></h3>
+   <p>Os <strong>Hyperlinks</strong> podem ser adicionados através da tag <mark><strong>&#60;a&#62;</strong></mark> - que é a abreviação de "<u>âncora</u>" - e esses links podem redirecionar os usuários para outras páginas interligadas ao assunto ou, até mesmo, para regiões do mesmo site.</p>
+   <p>Para transformar o texto do seu parágrafo em um link, siga estas etapas:</p>
+   <ol>
+      <li>Escolha um texto que você deseja transformar em um link;</li>
+      <li>Envolva o texto em um elemento <strong>&#60;a&#62;</strong>;</li>
+      <img src="img/tag-a1.png" alt="imagem representativa da tag a" width="800">
+      <br><br>
+      <li>Dê ao elemento <strong>&#60;a&#62;</strong> um atributo <strong><i>href=""</i></strong>;</li>
+      <img src="img/tag-a2.png" alt="atribuição do href='' na tag a" width="800">
+      <br><br>
+      <li>Preencha o valor do atributo com o endereço da página que você deseja redirecionar o usuário;</li>
+      <img src="img/tag-a3.png" alt="acrescentando link na tag a" width="800"><br>
+      <img src="img/resultado-tag-a.png" alt="resultado final da tag a na página" width="800">
+   </ol>
+   <small>OBS.: É importante colocar a parte <i><u>https://</u></i> ou <i><u>http://</u></i>, porque sem essa parte do link o navegador não sabe que é uma URL.</small>
+   <br><br>
+
+   <!-- Conclusão -->
+   <hr>
+   <h2>Conclusão</h2>
+   <p>O aprendizado de HTML é um dos primeiros passos para compreender o universo do desenvolvimento web. E, com os conceitos e práticas mostradas aqui, como estruturação de conteúdo utilizando elementos como títulos, parágrafos, links, listas e imagens, é possível criar páginas web simples e eficazes, além de compreender a base que sustenta os sites modernos.</p>
+   <p>Dominar o HTML é essencial para quem deseja evoluir para tecnologias mais avançadas, como CSS e JavaScript, que apliam as possibilidades de design e interatividade nas páginas web. Além disso, essa linguagem é muito utilizada, tornando-se uma habilidade valiosa tanto para profissionais da tecnologia quanto para quem busca autonomia na criação de conteúdo online.</p>
+   <p>Praticar o que foi aprendido, explorar novas tags e aprofundar-se nos conceitos de acessibilidade e semântica são os próximos passos para solidificar esse conhecimento e criar páginas mais ricas em conteúdo e mais eficazes.</p>
+   <small><a href="#inicio">Voltar ao início da página</a></small>
+   <br><br>
+   <!--
+      Links para montar este tópico:
+      HTML, CSS e Javascript, quais as diferenças? => https://www.alura.com.br/artigos/html-css-e-js-definicoes?srsltid=AfmBOoqmQW3iVGn0tMROUXykmDUzuakCLriRBfSCvIqTkjEnHISJmRk0
+      HTML Básico => https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content
+      Download do Visual Studio Code => https://code.visualstudio.com/Download
+      Download do Live Server => https://www.youtube.com/watch?v=5pZOCXJp0C8
+      Básico do HTML => https://www.youtube.com/watch?v=3oSIqIqzN3M
+      Todas as tags do HTML   => https://www.w3schools.com/tags/
+   -->
+   <hr>
+
+   <!-- Referências -->
+   <h2 id="referencias">Links de referências</h2>
+   <small><a href="#inicio"><= Voltar</a></small>
+   
+   <h3>História dos Computadores</h3>
+   <ul>
+      <li>
+         <a target="_blank" href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/">Breve História e Evolução dos Computadores</a>
+      </li>
+      <li>
+         <a target="_blank" href="https://chsi.harvard.edu/harvard-ibm-mark-1-about">Harvard IBM Mark I - About the Mark I</a>
+      </li>
+      <li>
+         <a target="_blank" href="https://museucapixaba.com.br/hoje/computador-colossus-mark-i-de-1943/">O Computador Colossus</a>
+      </li>
+      <li>
+         <a target="_blank" href="https://tecnoblog.net/especiais/eniac-primeiro-computador-do-mundo-completa-65-anos/">História do ENIAC</a>
+      </li>
+      <li>
+         <a target="_blank" href="https://www.diferenca.com/evolucao-dos-computadores/">Quinta Geração dos Computadores</a>
+      </li>
+   </ul>
+   <h4>Curiosidades:</h4>
+   <ul>
+      <li>
+         <a target="_blank" href="https://www.bbc.com/portuguese/articles/c51z15vg6epo">Primeira Aparição do <i>Colossus</i></a>
+      </li>
+      <li>
+         <a target="_blank" href="https://www.tecmundo.com.br/historia/40576-colossus-heroi-de-guerra-e-um-dos-primeiros-computadores-do-mundo.htm
+         ">Como funciona a decodificação do <i>Colossus</i>?</a>
+      </li>
+      <li>
+         <a target="_blank" href="https://lorenz.virtualcolossus.co.uk/LorenzSZ/">Lorenz Virtual</a>
+      </li>
+   </ul>
+   <br>
+   
+   <h3>Como a Internet surgiu?</h3>
+   <ul>
+      <li><a target="_blank" href="https://rockcontent.com/br/blog/historia-da-internet/">História da Internet</a></li>
+      <li><a target="_blank" href="https://www.womenshistory.org/education-resources/biographies/grace-hopper">Sobre Gracie Hopper</a></li>
+      <li><a target="_blank" href="https://en.wikipedia.org/wiki/J._C._R._Licklider">Sobre Joseph Carl Robnett Licklider</a></li>
+      <li><a target="_blank" href="https://www.invent.org/inductees/robert-e-kahn">Sobre Robert Kahn</a></li>
+      <li>
+         <a target="_blank" href="https://www.w3.org/People/Berners-Lee/">Sobre Tim Berners-Lee</a>
+         <ul>
+            <li><a href="https://info.cern.ch/" target="_blank">Primeiro site publicado</a></li>
+         </ul>
+      </li>
+      <li><a target="_blank" href="https://pt.wikipedia.org/wiki/Marc_Andreessen">Sobre Marc Andreessen</a></li>
+      <li><a target="_blank" href="https://www.infomoney.com.br/perfil/bill-gates/">Sobre Bill Gates</a></li>
+      <li><a target="_blank" href="https://en.wikipedia.org/wiki/Steve_Jobs">Sobre Steve Jobs</a></li>
+   </ul>
+
+   <h3>O que são <i>Clients</i>?</h3>
+   <ul>
+      <li>
+         <a target="_blank" href="https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada#:~:text=Cliente%3A%20Em%20uma%20infraestrutura%20cliente,recurso%20e%20aguarda%20a%20resposta.">O que é o Modelo Cliente-Servidor</a>
+         <ul>
+            <li><a target="_blank" href="https://www.youtube.com/watch?v=Xmu-EpxcROM">Vídeo sobre o Cliente-Servidor</a></li>
+         </ul>
+      </li>
+      <li><a target="_blank" href="https://www.mozilla.org/pt-BR/firefox/browsers/what-is-a-browser/">O que é um Navegadir?</a></li>
+      <li><a target="_blank" href="https://www.w3schools.com/tags/ref_html_browsersupport.asp">Compatibilidade dos Navegadores com as tags HTML</a></li>
+      <li><a target="_blank" href="https://aws.amazon.com/pt/what-is/web-application/">O que é Aplicação Web?</a></li>
+      <li><a target="_blank" href="https://aws.amazon.com/pt/what-is/web-application/">Diferença entre Aplicação Web e Aplicativo</a></li>
+   </ul>
+
+   <h3>O que são <i>Servers</i>?</h3>
+   <ul>
+      <li><a target="_blank" href="https://querobolsa.com.br/revista/o-que-e-um-servidor">O que é um servidor?</a></li>
+   </ul>
+
+   <h3>O que é uma Linguagem de Programação?</h3>
+   <ul>
+      <li><a target="_blank" href="https://www.alura.com.br/artigos/linguagem-programacao?">O que é uma Linguagem de Programação?</a></li>
+      <li><a target="_blank" href="https://www.scientecheasy.com/2021/12/client-side-scripting.html/#google_vignette
+         ">Linguagem <i>Client-Side</i></a></li>
+      <li><a target="_blank" href="https://pt.wikipedia.org/wiki/Linguagem_server-side#:~:text=A%20linguagem%20de%20servidor%2C%20ou%20Server-side%20scripting%2C%20%C3%A9,etc.%29%2C%20o%20pedido%20%C3%A9%20enviado%20para%20o%20servidor.">Linguagem <i>Server-Side</i></a></li>
+      <li><a target="_blank" href="https://www.dio.me/articles/por-que-o-html-nao-e-considerado-uma-linguagem-de-programacao">HTML não é uma linguagem de programação</a></li>
+      <li><a target="_blank" href="https://redmonk.com/sogrady/2023/05/16/language-rankings-1-23/">Ranking das Linguagens de Programação</a></li>
+   </ul>
+
+   <h3>Estrutura Básica do HTML</h3>
+   <ul>
+      <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content">HTML Básico</a></li>
+      <li><a target="_blank" href="https://www.youtube.com/watch?v=3oSIqIqzN3M">Vídeo aprensentando o básico do HTML</a></li>
+      <li><a target="_blank" href="https://www.w3schools.com/tags/">Todas as tags do HTML</a></li>
+      <li>
+         <a target="_blank" href=" https://code.visualstudio.com/Download">Download do Visual Studio Code</a>
+         <ul>
+            <li><a target="_blank" href="https://www.youtube.com/watch?v=pkH6XxH57O8">Vídeo para conhecer o Visual Studio Code</a></li>
+         </ul>
+      </li>
+      <li><a target="_blank" href="https://www.youtube.com/watch?v=5pZOCXJp0C8">Download do Live Server</a></li>
+      <li><a target="_blank" href="https://www.alura.com.br/artigos/html-css-e-js-definicoes?srsltid=AfmBOoqmQW3iVGn0tMROUXykmDUzuakCLriRBfSCvIqTkjEnHISJmRk0">Qual a diferença entre HTML, CSS e Javascript?</a></li>
+   </ul>
+</body>
+</html>
