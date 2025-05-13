@@ -152,4 +152,6 @@ footer .dio-logo {
 
 footer a {
     color: #33A8DB;
+    font-weight: 800;
+    text-decoration: none;
 }
